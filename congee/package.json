@@ -1,0 +1,36 @@
+{
+  "name": "congee",
+  "version": "0.0.4",
+  "description": "A local plaintext key-value store for terminal commands and more",
+  "main": "congee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sup/congee.git"
+  },
+  "keywords": [
+    "cli",
+    "history",
+    "alias",
+    "commands",
+    "developers"
+  ],
+  "author": "Charles Lai <charlesjianlai@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "congee": "./congee.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sup/congee/issues"
+  },
+  "homepage": "https://github.com/sup/congee#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "readline-sync": "^1.4.1",
+    "sqlite3": "^3.1.4",
+    "superagent": "^1.8.3"
+  }
+}
